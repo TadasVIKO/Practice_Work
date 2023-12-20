@@ -632,7 +632,7 @@ class Admin(Window):
             warning.place(x=frame_y/2, y=530, anchor=CENTER)
 
     def view_subject(self):
-        #self._name.destroy()
+        self._name.destroy()
 
         self.create_window(frame_x, frame_y)
 
